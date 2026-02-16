@@ -6,7 +6,6 @@
 
 ```bash
 sudo apt update && apt upgrade -y
-sudo apt install wget -y #karena lu baru fresh install jadi mungkin gak ada git di situ
 sudo wget https://raw.githubusercontent.com/Nozomi178/script-install-db-moodle/main/install-moodle-db.sh
 sudo chmod +x install-moodle-db.sh
 sudo ./install-moodle-db.sh
@@ -16,10 +15,9 @@ sudo ./install-moodle-db.sh
 
 ```bash
 sudo apt update && apt upgrade -y
-sudo apt install wget -y # sama aja kok alasanya kaya di atas
-https://raw.githubusercontent.com/Nozomi178/script-install-db-moodle/refs/heads/main/install-moodle-web.sh
-sudo chmod +x install-moodle-db.sh
-sudo ./install-moodle-db.sh
+sudo wget https://raw.githubusercontent.com/Nozomi178/script-install-db-moodle/refs/heads/main/install-moodle-web.sh
+sudo chmod +x install-moodle-web.sh
+sudo ./install-moodle-web.sh
 ```
 
 
