@@ -6,18 +6,14 @@
 
 ```bash
 sudo apt update && apt upgrade -y
-sudo wget https://raw.githubusercontent.com/Nozomi178/script-install-db-moodle/main/install-moodle-db.sh
-sudo chmod +x install-moodle-db.sh
-sudo ./install-moodle-db.sh
+sudo curl -sSL https://raw.githubusercontent.com/Nozomi178/script-install-db-moodle/refs/heads/main/install-moodle-web.sh | sudo bash
 ```
 
 ### 2. Di Server Moodlenya
 
 ```bash
 sudo apt update && apt upgrade -y
-sudo wget https://raw.githubusercontent.com/Nozomi178/script-install-db-moodle/refs/heads/main/install-moodle-web.sh
-sudo chmod +x install-moodle-web.sh
-sudo ./install-moodle-web.sh
+sudo curl -sSL https://raw.githubusercontent.com/Nozomi178/script-install-db-moodle/refs/heads/main/install-moodle-web.sh | sudo bash
 ```
 
 
