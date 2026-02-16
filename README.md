@@ -19,3 +19,7 @@ sudo wget https://github.com/Nozomi178/script-install-db-moodle/blob/main/instal
 sudo chmod +x install-moodle-db.sh
 sudo ./install-moodle-db.sh
 ```
+
+
+![tohka](https://github.com/user-attachments/assets/aed41fd6-0966-438d-a871-69e26d4723ea)
+
