@@ -17,7 +17,7 @@ sudo ./install-moodle-db.sh
 ```bash
 sudo apt update && apt upgrade -y
 sudo apt install wget -y # sama aja kok alasanya kaya di atas
-sudo wget https://github.com/Nozomi178/script-install-db-moodle/blob/main/install-moodle-web.sh
+https://raw.githubusercontent.com/Nozomi178/script-install-db-moodle/refs/heads/main/install-moodle-web.sh
 sudo chmod +x install-moodle-db.sh
 sudo ./install-moodle-db.sh
 ```
