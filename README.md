@@ -1,6 +1,6 @@
 # Script Install Moodle dan Database
 
-## Cara installnya ada di bawah ▼
+## Cara install ▼
 
 ### 1. Di Server Databasenya
 
